@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: hsl(36, 100%, 99%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav ul li a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: hsl(36, 100%, 99%);  
+}
+
+.poster {
+    width: 100%;
+}
+
+.text-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.text-and-button button {
+    padding: 10px 40px;
+    margin-top: 30px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+.grid-item2 {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 20px;
+}
+
+.title {
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 15px;
+}
+
+.block {
+    padding: 20px;
+    margin-bottom: 5px; 
+}
+
+.block h2 {
+    padding-bottom: 10px;
+}
+
+.block h2:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.cards-container {
+   display: flex;
+   /*flex-wrap: wrap;*/
+   overflow: auto;
+   gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    padding: 20px;
+    width: fit-content;   
+}
+
+.content h3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.content h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+i {
+    font-weight: 800 bold;
+    font-size: 2rem;
+    color: hsl(233, 8%, 79%);
+}
+
